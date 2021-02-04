@@ -11,16 +11,26 @@ import Utility from "./Utility";
 import Regex from "./Regex";
 
 export default class ClientServices {
-  public strings: Strings;
-  public restClient: RestClient;
-  public authClient: AuthClient;
-  public integrationClient: IntegrationClient;
-  public apolloClient: ApolloClient<any>;
-  public itemClient: ItemClient;
-  public stringHandler: StringHandler;
-  public logs: Logs;
-  public utility: Utility;
-  public regex: Regex;
+  // public strings: Strings;
+  // public restClient: RestClient;
+  // public authClient: AuthClient;
+  // public integrationClient: IntegrationClient;
+  // public apolloClient: ApolloClient<any>;
+  // public itemClient: ItemClient;
+  // public stringHandler: StringHandler;
+  // public logs: Logs;
+  // public utility: Utility;
+  // public regex: Regex;
+  public strings;
+  public restClient;
+  public authClient;
+  public integrationClient;
+  public apolloClient;
+  public itemClient;
+  public stringHandler;
+  public logs;
+  public utility;
+  public regex;
 
   constructor() {
     this.apolloClient = client;
