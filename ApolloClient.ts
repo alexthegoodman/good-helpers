@@ -9,17 +9,31 @@ const prismaUri = process.env.PRISMA_API;
 
 console.info("prismaUri", prismaUri);
 
+// const defaultOptions = {
+//   watchQuery: {
+//     fetchPolicy: "cache-and-network" as "cache-and-network",
+//     errorPolicy: "ignore" as "ignore",
+//   },
+//   query: {
+//     fetchPolicy: "cache-first" as "cache-first",
+//     errorPolicy: "all" as "all",
+//   },
+//   mutate: {
+//     errorPolicy: "all" as "all",
+//   },
+// };
+
 const defaultOptions = {
   watchQuery: {
-    fetchPolicy: "cache-and-network" as "cache-and-network",
-    errorPolicy: "ignore" as "ignore",
+    fetchPolicy: "cache-and-network",
+    errorPolicy: "ignore",
   },
   query: {
-    fetchPolicy: "cache-first" as "cache-first",
-    errorPolicy: "all" as "all",
+    fetchPolicy: "cache-first",
+    errorPolicy: "all",
   },
   mutate: {
-    errorPolicy: "all" as "all",
+    errorPolicy: "all",
   },
 };
 
