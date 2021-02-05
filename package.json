@@ -1,0 +1,9 @@
+{
+  "name": "good-helpers",
+  "version": "1.0.0",
+  "description": "Services and utilities for TypeScript (Node and React)",
+  "main": "ClientServices.ts",
+  "repository": "https://github.com/alexthegoodman/good-helpers.git",
+  "author": "Alex Woodman <alexthegoodman@gmail.com>",
+  "license": "MIT"
+}
