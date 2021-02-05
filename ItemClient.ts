@@ -1,5 +1,5 @@
 import Cookies from "universal-cookie";
-import Utility from "../services/Utility";
+import Utility from "./Utility";
 import client from "./ApolloClient";
 import RestClient from "./RestClient";
 

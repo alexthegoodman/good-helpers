@@ -1,7 +1,6 @@
-import Utility from "../services/Utility";
+import Utility from "./Utility";
 import RestClient from "./RestClient";
 import Logs from "./Logs";
-import { useSimpleFetch } from "../hooks/RestHooks";
 import axios from "axios";
 
 export default class IntegrationClient {
